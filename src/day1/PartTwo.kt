@@ -1,4 +1,4 @@
-package firstdate
+package day1
 
 import java.io.File
 
