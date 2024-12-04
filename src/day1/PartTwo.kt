@@ -6,7 +6,7 @@ fun main() {
     val leftColumn = mutableListOf<Int>()
     val rightColumn = mutableListOf<Int>()
 
-    File("FirstDate.txt").forEachLine { line ->
+    File("Day1Inputs.txt").forEachLine { line ->
         val list1 = line.split("   ")
         leftColumn.add(list1[0].toInt())
         rightColumn.add(list1[1].toInt())
